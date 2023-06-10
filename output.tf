@@ -37,3 +37,7 @@ output "node_group_min_size" {
   value       = aws_eks_node_group.private-nodes.scaling_config[0].min_size
   description = "The minimum size of the AWS EKS managed node group"
 }
+
+output "aws_load_balancer_controller_role_arn" {
+  value = aws_iam_role.aws-load-balancer-controller.arn
+}
