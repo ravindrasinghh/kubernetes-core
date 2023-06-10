@@ -1,2 +1,2 @@
 # kubernetes-core
-![Architecture](docs/arch.png)
+![Architecture](docs/diagram.png)
